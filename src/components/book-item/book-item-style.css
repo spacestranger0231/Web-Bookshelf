@@ -1,0 +1,43 @@
+.book_item:not(:first-child)  {
+    margin-top: 30px;
+}
+
+.book_item__text,
+.book_item__number,
+.book_item__operations {
+    display: inline-block;
+}
+
+.book_item__text {
+    width: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.book_item__number {
+    width: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.book_item__operations {
+    width: 40%;
+    height: 35px;
+    line-height: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.book_item__operations * {
+    margin-left: 10px;
+    padding: 3px;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.book_item__operations *:hover {
+    background-color: #b83333;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,9 @@
+.genre_item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.genre_item__info {
+    margin-left: 20px;
+}
+

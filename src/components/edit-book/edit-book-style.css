@@ -1,0 +1,9 @@
+.edit-book {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 120px minmax(10%, 20%); 
+    grid-gap: 20px
+}
